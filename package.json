@@ -1,0 +1,28 @@
+{
+  "name": "fullstack-web-app",
+  "version": "1.0.0",
+  "description": "This is a full stack web app building with NodeJS, React, Redux, Express, and MongoDB.",
+  "main": "index.js",
+  "dependencies": {
+    "concurrently": "^3.5.0",
+    "express": "^4.16.1",
+    "nodemon": "^1.12.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/walkerzheng/fullstack-web-app.git"
+  },
+  "author": "hao zheng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/walkerzheng/fullstack-web-app/issues"
+  },
+  "homepage": "https://github.com/walkerzheng/fullstack-web-app#readme"
+}
